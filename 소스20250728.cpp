@@ -25,32 +25,3 @@ int main() {
 	}
 	//printf("%d\n", i);
 }
-
-#include <stdio.h>
-
-int main() {
-	int num;
-	int i = 0;
-	int square = 1;
-	scanf("%d", &num);
-	int ori = num;
-	while (num > 0) {
-		square *= 10;
-		num /= 10;
-		i++;
-	}
-	square /= 10;
-	//printf("%d\n", square);
-	while (square > 0) {
-		int verticalnumber = ori / square; //앞자리 숫자 구함
-		ori %= square; //ori = 3721 % 1000 = 721 
-		square /= 10; //자릿수 낮추기
-		//printf("%d\n", verticalnumber);
-		int count = 0;
-		while (count < verticalnumber * 2) {
-			printf("\u2665");
-			count++;
-		}
-		printf("\n");
-	}
-}
