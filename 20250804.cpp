@@ -1,4 +1,4 @@
-//¹®Á¦ 5
+//ë¬¸ì œ 5
 //
 //#include <stdio.h>
 //
@@ -12,7 +12,7 @@
 //	return 0;
 //}
 
-//¹®Á¦ 6
+//ë¬¸ì œ 6
 
 #include <stdio.h>
 
@@ -23,11 +23,11 @@ int main() {
 	while (1) {
 		if (sequence == 0) {
 			printf("A : ");
-			sequence = 1; //Áö±İ º¯°æÇÏ¸é x
+			sequence = 1; //ì§€ê¸ˆ ë³€ê²½í•˜ë©´ x
 		}
 		else if (sequence == 1) {
 			printf("B : ");
-			sequence = 0; // Áö±İ º¯°æÇÏ¸é x
+			sequence = 0; // ì§€ê¸ˆ ë³€ê²½í•˜ë©´ x
 		}
 		scanf("%d", &num);
 		printf("=> ");
@@ -46,17 +46,17 @@ int main() {
 		}
 	}
 	if (sequence == 0) {
-		printf("A°¡ ÀÌ°å½À´Ï´Ù!");
+		printf("Aê°€ ì´ê²¼ìŠµë‹ˆë‹¤!");
 	}
 	else if (sequence == 1) {
-		printf("B°¡ ÀÌ°å½À´Ï´Ù!");
+		printf("Bê°€ ì´ê²¼ìŠµë‹ˆë‹¤!");
 	}
 	return 0;
 }
 
-//¹®Á¦6:
-//1.num1°ú num2 ÅëÀÏ
+//ë¬¸ì œ6:
+//1.num1ê³¼ num2 í†µì¼
 //2.sequence
 // 
-//¹®Á¦5 :
-//¹İº¹¹® ÇÏ³ª·Î
+//ë¬¸ì œ5 :
+//ë°˜ë³µë¬¸ í•˜ë‚˜ë¡œ
