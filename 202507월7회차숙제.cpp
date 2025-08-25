@@ -6,24 +6,24 @@ void main()
 { 
 	int a;
 	
-	printf("1~4Áß¿¡ ¼±ÅÃÇÏ¼¼¿ä:");
+	printf("1~4ì¤‘ì— ì„ íƒí•˜ì„¸ìš”:");
 	scanf("%d", &a);
 	
 	switch (a) {
 	case 1:
-		printf("1À» ¼±ÅÃÇß´Ù.\n");
+		printf("1ì„ ì„ íƒí–ˆë‹¤.\n");
 		break;
 	case 2:
-		printf("2À» ¼±ÅÃÇß´Ù.\n");
+		printf("2ì„ ì„ íƒí–ˆë‹¤.\n");
 		break;
 	case 3:
-		printf("3À» ¼±ÅÃÇß´Ù.\n");
+		printf("3ì„ ì„ íƒí–ˆë‹¤.\n");
 		break;
 	case 4:
-		printf("4À» ¼±ÅÃÇß´Ù.\n");
+		printf("4ì„ ì„ íƒí–ˆë‹¤.\n");
 		break;
 	default:
-		printf("ÀÌ»óÇÑ °É ¼±ÅÃÇß´Ù.\n");
+		printf("ì´ìƒí•œ ê±¸ ì„ íƒí–ˆë‹¤.\n");
 	}
 }
 
@@ -37,44 +37,44 @@ void main()
 { 
 	int year;
 	
-	printf("Ãâ»ı¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+	printf("ì¶œìƒì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 	scanf("%d", &year);
 	
 	switch (year%12) {
 	case 0:
-		printf("¿ø¼şÀÌ¶ì\n");
+		printf("ì›ìˆ­ì´ë \n");
 		break;
 	case 1:
-		printf("´ß¶ì\n");
+		printf("ë‹­ë \n");
 		break;
 	case 2:
-		printf("°³¶ì\n");
+		printf("ê°œë \n");
 		break;
 	case 3:
-		printf("µÅÁö¶ì\n");
+		printf("ë¼ì§€ë \n");
 		break;
 	case 4:
-		printf("Áã¶ì\n");
+		printf("ì¥ë \n");
 		break;
 	case 5:
-		printf("¼Ò¶ì\n");
+		printf("ì†Œë \n");
 		break;
 	case 6:
-		printf("È£¶ûÀÌ¶ì\n");
+		printf("í˜¸ë‘ì´ë \n");
 		break;
 	case 7:
-		printf("Åä³¢¶ì\n");
+		printf("í† ë¼ë \n");
 		break;
 	case 8:
-		printf("¿ë¶ì\n");
+		printf("ìš©ë \n");
 		break;
 	case 9:
-		printf("¹ì¶ì\n");
+		printf("ë±€ë \n");
 		break;
 	case 10:
-		printf("¸»¶ì\n");
+		printf("ë§ë \n");
 		break;
 	case 11:
-		printf("¾ç¶ì\n");
+		printf("ì–‘ë \n");
 	}
 }
