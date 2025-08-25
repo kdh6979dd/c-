@@ -1,4 +1,4 @@
-//30p ¹®Á¦ 6
+//30p ë¬¸ì œ 6
 
 //#include <stdio.h>
 //
@@ -12,21 +12,21 @@
 //		printf("=> ");
 //
 //		if (num < 0 || num > 3) {
-//			printf("0~3»çÀÌÀÇ ¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+//			printf("0~3ì‚¬ì´ì˜ ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”\n");
 //			continue;
 //		}
 //		temp = num;
 //		total += temp;
 //		printf("%d\n", total);
 //
-//		sequence = !sequence; //1¹ø
-//		//sequence = ++sequence % 2; //2¹ø
+//		sequence = !sequence; //1ë²ˆ
+//		//sequence = ++sequence % 2; //2ë²ˆ
 //
 //		if (total >= 31) {
 //			break;
 //		}
 //	}
-//	printf("%c°¡ ÀÌ°å½À´Ï´Ù!", 'A' + sequence);
+//	printf("%cê°€ ì´ê²¼ìŠµë‹ˆë‹¤!", 'A' + sequence);
 //	return 0;
 //}
 
@@ -36,7 +36,7 @@
 //	int temperature = 20;
 //	do
 //	{
-//		printf("ÇöÀç ¿Âµµ : %dµµ\n", temperature);
+//		printf("í˜„ìž¬ ì˜¨ë„ : %dë„\n", temperature);
 //		temperature--;
 //	} while (temperature > 28);
 //	return 0;
@@ -47,23 +47,23 @@
 //	int input;
 //	enum {GAMEOVER, NEWGAME, LOADGAME, OPTION};
 //	do {
-//		printf("\n¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä.\n");
-//		printf("1.»õ °ÔÀÓ 2.ÀÌ¾îÇÏ±â 3.¿É¼Ç(0:°ÔÀÓÁ¾·á)\n");
+//		printf("\në©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš”.\n");
+//		printf("1.ìƒˆ ê²Œìž„ 2.ì´ì–´í•˜ê¸° 3.ì˜µì…˜(0:ê²Œìž„ì¢…ë£Œ)\n");
 //		scanf("%d", &input);
 //
 //		switch (input) {
 //		case NEWGAME:
-//			printf("»õ °ÔÀÓ ½ÃÀÛ\n");
+//			printf("ìƒˆ ê²Œìž„ ì‹œìž‘\n");
 //			break;
 //		case LOADGAME:
-//			printf("¼¼ÀÌºê µ¥ÀÌÅÍ ·Îµå\n");
+//			printf("ì„¸ì´ë¸Œ ë°ì´í„° ë¡œë“œ\n");
 //			break;
 //		case OPTION:
-//			printf("¿É¼Ç ¼¼ÆÃ\n");
+//			printf("ì˜µì…˜ ì„¸íŒ…\n");
 //			break;
 //		}
 //	} while (input != GAMEOVER);
-//	printf("°ÔÀÓÀ» Á¾·áÇÕ´Ï´Ù.\n");
+//	printf("ê²Œìž„ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n");
 //	return 0;
 //}
 
@@ -74,34 +74,34 @@ int main() {
 	int id, password;
 	enum { TEMP, SIGNIN, SIGNUP, OPTION, DEV };
 	do {
-		printf("\n¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä.\n");
-		printf("1. ·Î±×ÀÎ\n2. È¸¿ø°¡ÀÔ\n3. ¿É¼Ç(0:°ÔÀÓÁ¾·á)\n4. ¸¸µç »ç¶÷µé\n\n");
+		printf("\në©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš”.\n");
+		printf("1. ë¡œê·¸ì¸\n2. íšŒì›ê°€ìž…\n3. ì˜µì…˜(0:ê²Œìž„ì¢…ë£Œ)\n4. ë§Œë“  ì‚¬ëžŒë“¤\n\n");
 		printf("=>");
 		scanf("%d", &select);
 		printf("\n");
 
 		switch (select) {
 		case SIGNIN:
-			printf("¾ÆÀÌµð : ");
+			printf("ì•„ì´ë”” : ");
 			scanf("%d", &id);
-			printf("ºñ¹Ð¹øÈ£ : ");
+			printf("ë¹„ë°€ë²ˆí˜¸ : ");
 			scanf("%d", &password);
 			break;
 		case SIGNUP:
-			printf("¾ÆÀÌµð : ");
+			printf("ì•„ì´ë”” : ");
 			scanf("%d", &id);
-			printf("ºñ¹Ð¹øÈ£ : ");
+			printf("ë¹„ë°€ë²ˆí˜¸ : ");
 			scanf("%d", &password);
 			break;
 		case OPTION:
-			printf("¿É¼Ç ¼¼ÆÃ\n");
+			printf("ì˜µì…˜ ì„¸íŒ…\n");
 			break;
 		case DEV:
-			printf("¸¸µç »ç¶÷µé : A\n¸¸µç »ç¶÷µé : B\n¸¸µç »ç¶÷µé : C\n");
+			printf("ë§Œë“  ì‚¬ëžŒë“¤ : A\në§Œë“  ì‚¬ëžŒë“¤ : B\në§Œë“  ì‚¬ëžŒë“¤ : C\n");
 			break;
 		}
 	}
 	while (select != (select >= 1 && select <= 4));
-	printf("°ÔÀÓÀ» Á¾·áÇÕ´Ï´Ù.\n");
+	printf("ê²Œìž„ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n");
 	return 0;
 }
