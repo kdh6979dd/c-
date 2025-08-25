@@ -1,4 +1,4 @@
-// ¼÷Á¦ 8¹ø ¹®Á¦ 
+// ìˆ™ì œ 8ë²ˆ ë¬¸ì œ 
 //#include <stdio.h>
 //
 //int main() {
@@ -15,9 +15,9 @@
 //	square /= 10;
 //	//printf("%d\n", square);
 //	while (square > 0) {
-//		int verticalnumber = ori / square; //¾ÕÀÚ¸® ¼ıÀÚ ±¸ÇÔ
+//		int verticalnumber = ori / square; //ì•ìë¦¬ ìˆ«ì êµ¬í•¨
 //		ori %= square; //ori = 3721 % 1000 = 721 
-//		square /= 10; //ÀÚ¸´¼ö ³·Ãß±â
+//		square /= 10; //ìë¦¿ìˆ˜ ë‚®ì¶”ê¸°
 //		//printf("%d\n", verticalnumber);
 //		int count = 0;
 //		while (count < verticalnumber) {
@@ -36,14 +36,14 @@
 //{
 //	int count = 0;
 //
-//	while (count < 3) //count °¡ 0,1,2 ÀÏ ¶§ ½ÇÇà
+//	while (count < 3) //count ê°€ 0,1,2 ì¼ ë•Œ ì‹¤í–‰
 //
 //	{
-//		printf("ÇöÀç count : %d\n", count);
-//		printf("count°¡ 3º¸´Ù ÀÛÀº µ¿¾È ¹İº¹\n");
+//		printf("í˜„ì¬ count : %d\n", count);
+//		printf("countê°€ 3ë³´ë‹¤ ì‘ì€ ë™ì•ˆ ë°˜ë³µ\n");
 //		count++;
 //
-//	//count¸¦ Áõ°¡½ÃÄÑ Á¶°ÇÀ» ¸¸Á·ÇÏÁö ¸øÇÏ°Ô ÇÔ
+//	//countë¥¼ ì¦ê°€ì‹œì¼œ ì¡°ê±´ì„ ë§Œì¡±í•˜ì§€ ëª»í•˜ê²Œ í•¨
 //	}
 //	return 0;
 //}
@@ -52,14 +52,14 @@
 //
 //int main()
 //{
-//	int count = 3; //count°¡ 3,2,1ÀÏ ¶§ ½ÇÇà
+//	int count = 3; //countê°€ 3,2,1ì¼ ë•Œ ì‹¤í–‰
 //
 //	while (count > 0) {
-//		printf("ÇöÀç count : %d\n", count);
-//		printf("count°¡ 0º¸´Ù Å« µ¿¾È ¹İº¹\n");
+//		printf("í˜„ì¬ count : %d\n", count);
+//		printf("countê°€ 0ë³´ë‹¤ í° ë™ì•ˆ ë°˜ë³µ\n");
 //		count--;
 //
-//		// count¸¦ °¨¼Ò½ÃÄÑ Á¶°Å´Ã ¸¸Á·ÇÏÁö ¸øÇÏ°Ô ÇÔ
+//		// countë¥¼ ê°ì†Œì‹œì¼œ ì¡°ê±°ëŠ˜ ë§Œì¡±í•˜ì§€ ëª»í•˜ê²Œ í•¨
 //	}
 //	return 0;
 //}
@@ -103,14 +103,14 @@
 //
 //int main() {
 //	int count = 3;
-//	while (count) //count°¡ 0ÀÏ ¶§ ¹İº¹¹®ÀÌ ³¡³²
+//	while (count) //countê°€ 0ì¼ ë•Œ ë°˜ë³µë¬¸ì´ ëë‚¨
 //	{
 //		if (count == 1) {
-//			//count°¡ 1ÀÌ¸é {}½ÇÇà
+//			//countê°€ 1ì´ë©´ {}ì‹¤í–‰
 //			break;
 //		}
-//		printf("ÇöÀç count: %d\n", count);
-//		printf("count°¡ 0ÀÌ ¾Æ´Ï¸é ¹İº¹\n");
+//		printf("í˜„ì¬ count: %d\n", count);
+//		printf("countê°€ 0ì´ ì•„ë‹ˆë©´ ë°˜ë³µ\n");
 //		count--;
 //	}
 //	return 0;
@@ -120,19 +120,19 @@
 //
 //int main() {
 //	char alphabat;
-//	while (1) { //¹«ÇÑ¹İº¹
-//		printf("¾ËÆÄºªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä(´Ù¸¥ °Í ÀÔ·Â½Ã ´Ù½ÃÀÔ·Â):");
+//	while (1) { //ë¬´í•œë°˜ë³µ
+//		printf("ì•ŒíŒŒë²³ì„ ì…ë ¥í•´ì£¼ì„¸ìš”(ë‹¤ë¥¸ ê²ƒ ì…ë ¥ì‹œ ë‹¤ì‹œì…ë ¥):");
 //		scanf("%c", &alphabat);
 //		if (alphabat >= 'a' && alphabat <= 'z') {
-//			printf("¼Ò¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//			printf("ì†Œë¬¸ìë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //		}
 //		else if (alphabat >= 'A' && alphabat <= 'Z') {
-//			printf("´ë¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//			printf("ëŒ€ë¬¸ìë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //		}
 //		else {
 //			continue;
 //		}
-//		printf("ÀÔ·ÂÇÑ °ª: %c\n", alphabat);
+//		printf("ì…ë ¥í•œ ê°’: %c\n", alphabat);
 //	}
 //}
 
@@ -141,13 +141,13 @@
 //int main() {
 //	int number, total = 0;
 //	while (1) {
-//		printf("¾ç¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä(0ÀÔ·Â½Ã Á¾·á);");
+//		printf("ì–‘ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”(0ì…ë ¥ì‹œ ì¢…ë£Œ);");
 //		scanf("%d", &number);
-//		//number°¡ 0ÀÌ¸é ¹İº¹¹® Å»Ãâ
+//		//numberê°€ 0ì´ë©´ ë°˜ë³µë¬¸ íƒˆì¶œ
 //		if (number == 0) {
 //			break;
 //		}
-//		//number°¡ À½¼öÀÌ¸é ´Ù½Ã ÀÔ·Â¹ŞÀ½
+//		//numberê°€ ìŒìˆ˜ì´ë©´ ë‹¤ì‹œ ì…ë ¥ë°›ìŒ
 //		else if (number < 0) { continue; }
 //
 //		total = total + number;
