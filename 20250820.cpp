@@ -21,12 +21,12 @@
 //#include <stdio.h>
 //
 //int main() {
-//	printf("1¹Ý 1¹ø\n");
-//	printf("1¹Ý 2¹ø\n");
-//	printf("1¹Ý 3¹ø\n");
-//	printf("2¹Ý 1¹ø\n");
-//	printf("2¹Ý 2¹ø\n");
-//	printf("2¹Ý 3¹ø\n");
+//	printf("1ë°˜ 1ë²ˆ\n");
+//	printf("1ë°˜ 2ë²ˆ\n");
+//	printf("1ë°˜ 3ë²ˆ\n");
+//	printf("2ë°˜ 1ë²ˆ\n");
+//	printf("2ë°˜ 2ë²ˆ\n");
+//	printf("2ë°˜ 3ë²ˆ\n");
 //
 //	return 0;
 //}
@@ -36,14 +36,14 @@
 //int main() {
 //	int myClass = 1;
 //	int student = 1;
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
 //
-//	myClass++; student = 1;//ÇÐ¹ø ÃÊ±âÈ­
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
-//	printf("%d¹Ý %d¹ø\n", myClass, student); student++;
+//	myClass++; student = 1;//í•™ë²ˆ ì´ˆê¸°í™”
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
 //	return 0;
 //}
 
@@ -53,13 +53,13 @@
 //	int myClass = 1;
 //	int student;
 //	for (student = 1; student <= 3; student++) {
-//		printf("%d¹Ý %d¹ø\n", myClass, student);
+//		printf("%dë°˜ %dë²ˆ\n", myClass, student);
 //	}
-//	//student++´Â for¹® ()¾È¿¡ ÀÖÀ½
+//	//student++ëŠ” forë¬¸ ()ì•ˆì— ìžˆìŒ
 //
-//	myClass++; //ÃÊ±âÈ­´Â for¹® ()¾È¿¡ ÀÖÀ½
+//	myClass++; //ì´ˆê¸°í™”ëŠ” forë¬¸ ()ì•ˆì— ìžˆìŒ
 //	for (student = 1; student <= 3; student++) {
-//		printf("%d¹Ý %d¹ø \n", myClass, student);
+//		printf("%dë°˜ %dë²ˆ \n", myClass, student);
 //	}
 //	return 0;
 //}
@@ -71,9 +71,9 @@
 //	int student;
 //	for (myClass = 1; myClass <= 2; myClass++) {
 //
-//		//myClass++´Â ¹Ù±ù for¹® ()¾È¿¡ ÀÖÀ½
+//		//myClass++ëŠ” ë°”ê¹¥ forë¬¸ ()ì•ˆì— ìžˆìŒ
 //		for (student = 1; student <= 3; student++) {
-//			printf("%d¹Ý %d¹ø \n", myClass, student);
+//			printf("%dë°˜ %dë²ˆ \n", myClass, student);
 //		}
 //	}
 //	return 0;
@@ -85,7 +85,7 @@
 //	int student;
 //	for (myClass = 1; myClass <= 8; myClass++) {
 //		for (student = 1; student <= 30; student++) {
-//			printf("%d¹Ý %d¹ø\n", myClass, student);
+//			printf("%dë°˜ %dë²ˆ\n", myClass, student);
 //		}
 //	}
 //	return 0;
@@ -100,7 +100,7 @@
 //	for (grade = 1; grade <= 8; grade++) {
 //		for (myClass = 1; myClass <= 8; myClass++) {
 //			for (student = 1; student <= 30; student++) {
-//				printf("%dÇÐ³â %d¹Ý %d¹ø \n", grade, myClass, student);
+//				printf("%dí•™ë…„ %dë°˜ %dë²ˆ \n", grade, myClass, student);
 //			}
 //		}
 //	}
@@ -141,7 +141,7 @@
 //	int six_sided_dice;
 //	for (four_sided_dice = 1; four_sided_dice <= 4; four_sided_dice++) {
 //		for (six_sided_dice = 1; six_sided_dice <= 6; six_sided_dice++) {
-//			printf("4¸é - %d, 6¸é - %d\n", four_sided_dice, six_sided_dice);
+//			printf("4ë©´ - %d, 6ë©´ - %d\n", four_sided_dice, six_sided_dice);
 //		}
 //	}
 //	return 0;
