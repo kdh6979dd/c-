@@ -4,11 +4,11 @@
 //	int input;
 //	scanf("%d", &input);
 //	if (input > 0)
-//		printf("%dÀº(´Â) ¾ç¼ö\n", input);
+//		printf("%dì€(ëŠ”) ì–‘ìˆ˜\n", input);
 //	else if (input < 0)
-//		printf("%dÀº(´Â) À½¼ö\n", input);
+//		printf("%dì€(ëŠ”) ìŒìˆ˜\n", input);
 //	else
-//		printf("%dÀº(´Â) 0\n", input);
+//		printf("%dì€(ëŠ”) 0\n", input);
 //}
 
 //#include <stdio.h>
@@ -17,9 +17,9 @@
 //	int input = 0;
 //	scanf("%d", &input);
 //	if (input >= 10 && input <= 99)
-//		printf("%dÀº(´Â) µÎ ÀÚ¸® ¼ıÀÚÀÔ´Ï´Ù", input);
+//		printf("%dì€(ëŠ”) ë‘ ìë¦¬ ìˆ«ìì…ë‹ˆë‹¤", input);
 //	else
-//		printf("%dÀº(´Â) µÎ ÀÚ¸® ¼ıÀÚ°¡ ¾Æ´Õ´Ï´Ù", input);
+//		printf("%dì€(ëŠ”) ë‘ ìë¦¬ ìˆ«ìê°€ ì•„ë‹™ë‹ˆë‹¤", input);
 //}
 
 //#include <stdio.h>
@@ -27,10 +27,10 @@
 //int main() {
 //	int height = 170;
 //	if (height > 150) {
-//		printf("Å°°¡ 150 ÀÌ»óÀÔ´Ï´Ù.\n");
+//		printf("í‚¤ê°€ 150 ì´ìƒì…ë‹ˆë‹¤.\n");
 //	}
 //	if (height > 160) {
-//		printf("Å°°¡ 160 ÀÌ»óÀÔ´Ï´Ù.\n");
+//		printf("í‚¤ê°€ 160 ì´ìƒì…ë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -40,11 +40,11 @@
 //int main() {
 //	int height = 170;
 //	if (height > 150) {
-//		printf("Å°°¡ 150 ÀÌ»óÀÔ´Ï´Ù.\n");
+//		printf("í‚¤ê°€ 150 ì´ìƒì…ë‹ˆë‹¤.\n");
 //	}
 //	else if (height > 160) {
-//		//else if´Â if°¡ Æ²·ÈÀ»¶§¸¸ ½ÇÇàµÈ´Ù
-//		printf("Å°°¡ 160 ÀÌ»óÀÔ´Ï´Ù.\n");
+//		//else ifëŠ” ifê°€ í‹€ë ¸ì„ë•Œë§Œ ì‹¤í–‰ëœë‹¤
+//		printf("í‚¤ê°€ 160 ì´ìƒì…ë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -54,14 +54,14 @@
 //int main() {
 //	int y_age;
 //	scanf("%d", &y_age);
-//	printf("ÀüÃ¼°ü¶÷°¡\n");
+//	printf("ì „ì²´ê´€ëŒê°€\n");
 //	if (y_age >= 12)
 //	{
-//		printf("12¼¼ °ü¶÷°¡\n");
+//		printf("12ì„¸ ê´€ëŒê°€\n");
 //	}
 //	if (y_age >= 15)
 //	{
-//		printf("15¼¼ °ü¶÷°¡\n");
+//		printf("15ì„¸ ê´€ëŒê°€\n");
 //	}
 //}
 
@@ -71,9 +71,9 @@
 //	char initial;
 //	scanf("%c", &initial);
 //	if (initial >='A' && initial <= 0x5a) //'A' = 0x41= 65
-//		printf("´ë¹®ÀÚ");
+//		printf("ëŒ€ë¬¸ì");
 //	else if (initial >= 0x61 && initial <= 0x7a)
-//		printf("¼Ò¹®ÀÚ");
+//		printf("ì†Œë¬¸ì");
 //}
 
 //#include <stdio.h>
@@ -82,14 +82,14 @@
 //	int number, answer;
 //	scanf("%d %d", &number, &answer);
 //	if (number > answer) {
-//		printf("¼ıÀÚ1ÀÌ ¼ıÀÚ2º¸´Ù Å®´Ï´Ù.\n");
+//		printf("ìˆ«ì1ì´ ìˆ«ì2ë³´ë‹¤ í½ë‹ˆë‹¤.\n");
 //	}
 //	else {
 //		if (number < answer) {
-//			printf("¼ıÀÚ2°¡ ¼ıÀÚ1º¸´Ù Å®´Ï´Ù.\n");
+//			printf("ìˆ«ì2ê°€ ìˆ«ì1ë³´ë‹¤ í½ë‹ˆë‹¤.\n");
 //		}
 //		else {
-//			printf("¼ıÀÚ1°ú ¼ıÀÚ2°¡ °°½À´Ï´Ù.\n");
+//			printf("ìˆ«ì1ê³¼ ìˆ«ì2ê°€ ê°™ìŠµë‹ˆë‹¤.\n");
 //		}
 //	}
 //	return 0;
@@ -101,13 +101,13 @@
 //	int number, answer;
 //	scanf("%d%d", &number, &answer);
 //	if (number > answer) {
-//		printf("¼ıÀÚ1ÀÌ ¼ıÀÚ2º¸´Ù Å®´Ï´Ù.\n");
+//		printf("ìˆ«ì1ì´ ìˆ«ì2ë³´ë‹¤ í½ë‹ˆë‹¤.\n");
 //	}
 //	else if (number < answer) {
-//		printf("¼ıÀÚ2°¡ ¼ıÀÚ1º¸´Ù Å®´Ï´Ù.\n");
+//		printf("ìˆ«ì2ê°€ ìˆ«ì1ë³´ë‹¤ í½ë‹ˆë‹¤.\n");
 //	}
 //	else {
-//		printf("¼ıÀÚ1°ú ¼ıÀÚ2°¡ °°½À´Ï´Ù.\n");
+//		printf("ìˆ«ì1ê³¼ ìˆ«ì2ê°€ ê°™ìŠµë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -117,19 +117,19 @@
 //int main() {
 //	int score = 75;
 //	if (score > 90) {
-//		printf("¼ºÀûÀº Aµî±ŞÀÔ´Ï´Ù.\n");
+//		printf("ì„±ì ì€ Aë“±ê¸‰ì…ë‹ˆë‹¤.\n");
 //	}
 //	else if (score > 80) {
-//		printf("¼ºÀûÀº Bµî±ŞÀÔ´Ï´Ù.\n");
+//		printf("ì„±ì ì€ Bë“±ê¸‰ì…ë‹ˆë‹¤.\n");
 //	}
 //	else if (score > 70) {
-//		printf("¼ºÀûÀº Cµî±ŞÀÔ´Ï´Ù.\n");
+//		printf("ì„±ì ì€ Cë“±ê¸‰ì…ë‹ˆë‹¤.\n");
 //	}
 //	else if (score > 60) {
-//		printf("¼ºÀûÀº Dµî±ŞÀÔ´Ï´Ù.\n");
+//		printf("ì„±ì ì€ Dë“±ê¸‰ì…ë‹ˆë‹¤.\n");
 //	}
 //	else {
-//		printf("¼ºÀûÀº Fµî±ŞÀÔ´Ï´Ù.\n");
+//		printf("ì„±ì ì€ Fë“±ê¸‰ì…ë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -139,19 +139,19 @@
 //int main() {
 //	int number = -11;
 //	if (number > 0) {
-//		printf("number´Â ¾ç¼öÀÔ´Ï´Ù.\n");
+//		printf("numberëŠ” ì–‘ìˆ˜ì…ë‹ˆë‹¤.\n");
 //	}
 //	else if (number < 0) {
-//		printf("number´Â À½¼öÀÔ´Ï´Ù.\n");
+//		printf("numberëŠ” ìŒìˆ˜ì…ë‹ˆë‹¤.\n");
 //	}
 //	else {
-//		printf("number´Â 0ÀÔ´Ï´Ù.\n");
+//		printf("numberëŠ” 0ì…ë‹ˆë‹¤.\n");
 //	}
 //	if (number % 2 == 0) {
-//		printf("number´Â Â¦¼öÀÔ´Ï´Ù.\n");
+//		printf("numberëŠ” ì§ìˆ˜ì…ë‹ˆë‹¤.\n");
 //	}
 //	else {
-//		printf("number´Â È¦¼öÀÔ´Ï´Ù.\n");
+//		printf("numberëŠ” í™€ìˆ˜ì…ë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -162,16 +162,16 @@
 //	char arrowkey;
 //	scanf("%c", &arrowkey);
 //	if (arrowkey == 'w') {
-//		printf("À§ ¹æÇâÅ°¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//		printf("ìœ„ ë°©í–¥í‚¤ë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //	}
 //	else if (arrowkey == 'a') {
-//		printf("ÁÂ ¹æÇâÅ°¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//		printf("ì¢Œ ë°©í–¥í‚¤ë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //	}
 //	else if (arrowkey == 's') {
-//		printf("¾Æ·¡ ¹æÇâÅ°¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//		printf("ì•„ë˜ ë°©í–¥í‚¤ë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //	}
 //	else if (arrowkey == 'd') {
-//		printf("¿ì ¹æÇâÅ°¸¦ ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+//		printf("ìš° ë°©í–¥í‚¤ë¥¼ ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 //	}
 //}
 
@@ -197,13 +197,13 @@
 //	int input;
 //	scanf("%d", &input);
 //
-//	if (input % 3 == 0) { // ÁßÃ¸ if »ç¿ë°¡´É
-//		printf("%dÀº(´Â) 3ÀÇ ¹è¼öÀÔ´Ï´Ù. ", input);
+//	if (input % 3 == 0) { // ì¤‘ì²© if ì‚¬ìš©ê°€ëŠ¥
+//		printf("%dì€(ëŠ”) 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤. ", input);
 //		if (input % 6 == 0) {
-//			printf("%dÀº(´Â) 6ÀÇ ¹è¼öÀÔ´Ï´Ù. ", input);
+//			printf("%dì€(ëŠ”) 6ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤. ", input);
 //		}
 //		if (input % 9 == 0) {
-//			printf("%dÀº(´Â) 9ÀÇ ¹è¼öÀÔ´Ï´Ù. ", input);
+//			printf("%dì€(ëŠ”) 9ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤. ", input);
 //		}
 //	}
 //	return 0;
