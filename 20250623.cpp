@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("�ȳ��ϼ���\n")
+	printf("¾È³çÇÏ¼¼¿ä\n")
 	return 0;
 }
