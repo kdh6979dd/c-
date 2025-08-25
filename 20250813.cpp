@@ -3,9 +3,9 @@
 //int main() {
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++) {
-//		printf("¾ç %d¸¶¸®\n", sheep);
+//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
 //	}
-//	printf("Àáµé¾ú´Ù!\n");
+//	printf("ìž ë“¤ì—ˆë‹¤!\n");
 //	return 0;
 //}
 
@@ -14,9 +14,9 @@
 //int main() {
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++) {
-//		printf("¾ç %d¸¶¸®\n", sheep);
+//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
 //		if (sheep == 3) {
-//			printf("µµÁß¿¡ Àáµé¾ú´Ù!\n");
+//			printf("ë„ì¤‘ì— ìž ë“¤ì—ˆë‹¤!\n");
 //			break;
 //		}
 //	}
@@ -29,39 +29,39 @@
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++) {
 //		if (sheep == 3) {
-//			printf("Á¹¾Æ¼­ ¾çÀ» ¼¼Áö ¸øÇß´Ù!\n");
+//			printf("ì¡¸ì•„ì„œ ì–‘ì„ ì„¸ì§€ ëª»í–ˆë‹¤!\n");
 //			continue;
 //		}
-//		printf("¾ç %d¸¶¸®\n", sheep);
+//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
 //	}
 //	return 0;
 //}
 
-///*¹®Á¦1*/
+///*ë¬¸ì œ1*/
 //#include <stdio.h>
 //
 //int main() {
 //	int sheep;
 //	for (sheep = 1; sheep <= 20; sheep++) {
-//		printf("¾ç %d¸¶¸®\n", sheep);
+//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
 //	}
 //	return 0;
 //}
 //
-///*¹®Á¦2*/
+///*ë¬¸ì œ2*/
 //#include <stdio.h>
 //
 //int main() {
 //	int sheep;
 //	for (sheep = 1; sheep <= 50; sheep++) {
 //		if (sheep % 10 == 0) {
-//			printf("Á¹¾Æ¼­ ¾çÀ» ¼¼Áö ¸øÇß´Ù!\n");
+//			printf("ì¡¸ì•„ì„œ ì–‘ì„ ì„¸ì§€ ëª»í–ˆë‹¤!\n");
 //			continue;
 //		}
 //		if (sheep == 45) {
 //			break;
 //		}
-//		printf("¾ç %d¸¶¸®\n", sheep);
+//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
 //	}
 //	return 0;
 //}
@@ -72,7 +72,7 @@
 //	int round;
 //	for (round = 0; round < 10; round++)
 //	{
-//		printf("¶ó¿îµå %d\n", round);
+//		printf("ë¼ìš´ë“œ %d\n", round);
 //	}
 //	return 0;
 //}
@@ -82,7 +82,7 @@
 //int main() {
 //	int round;
 //	for (round = 0; round <= 10; round++) {
-//		printf("¶ó¿îµå %d\n", round);
+//		printf("ë¼ìš´ë“œ %d\n", round);
 //	}
 //	return 0;
 //}
@@ -94,7 +94,7 @@
 //	for (count = 101;
 //		count < 111;
 //		count++) {
-//		printf("¾ÆÆÄÆ® %dµ¿\n", count);
+//		printf("ì•„íŒŒíŠ¸ %dë™\n", count);
 //	}
 //	return 0;
 //}
@@ -107,7 +107,7 @@
 //	for (number = 1; number <= 20; number++) {
 //		sum_number += number;
 //	}
-//	printf("µµÇÕ %d\n", sum_number);
+//	printf("ë„í•© %d\n", sum_number);
 //	return 0;
 //}
 
@@ -116,10 +116,10 @@
 //int main() {
 //	int count;
 //	int number;
-//	printf("¹Ýº¹ÇÒ È½¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+//	printf("ë°˜ë³µí•  íšŸìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” :");
 //	scanf("%d", &count);
 //	for (number = 0; number < count; number++) {
-//		printf("»ß¾à");
+//		printf("ì‚ì•½");
 //	}
 //	printf("\n");
 //	return 0;
