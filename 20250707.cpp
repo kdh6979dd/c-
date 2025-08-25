@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//¼÷Á¦¿À´ä
+//ìˆ™ì œì˜¤ë‹µ
 //#include <stdio.h>
 //
 //int main()
@@ -26,7 +26,7 @@
 //int main()
 //{
 //	int coin;
-//	printf("µ·À» ÀÔ·ÂÇØÁÖ¼¼¿ä.(¿ø)");
+//	printf("ëˆì„ ì…ë ¥í•´ì£¼ì„¸ìš”.(ì›)");
 //	scanf("%d", &coin);
 //
 //	int coin10000 = coin / 10000;
@@ -34,10 +34,10 @@
 //	int coin5000 = coin / 5000;
 //	coin = coin % 5000;
 //	int coin1000 = coin / 1000;
-//	printf("¸¸¿ø±Ç %d°³, ", coin10000);
-//	printf("¿ÀÃµ¿ø±Ç %d°³, ", coin5000);
-//	printf("Ãµ¿ø±Ç %d°³, ", coin1000);
-//	printf("³ª¸ÓÁö´Â µ¿ÀüÀÔ´Ï´Ù.");
+//	printf("ë§Œì›ê¶Œ %dê°œ, ", coin10000);
+//	printf("ì˜¤ì²œì›ê¶Œ %dê°œ, ", coin5000);
+//	printf("ì²œì›ê¶Œ %dê°œ, ", coin1000);
+//	printf("ë‚˜ë¨¸ì§€ëŠ” ë™ì „ì…ë‹ˆë‹¤.");
 //	return 0;
 //}
 
@@ -45,22 +45,22 @@ int main()
 {
 	int coin = 1000;
 	int price_of_jelly;
-	printf("ÁöºÒ±İ: %d¿ø\n", coin);
-	printf("Á©¸®ÀÇ °¡°İ:");
+	printf("ì§€ë¶ˆê¸ˆ: %dì›\n", coin);
+	printf("ì ¤ë¦¬ì˜ ê°€ê²©:");
 	scanf("%d:", &price_of_jelly);
 
 	int change = coin - price_of_jelly;
-	printf("°Å½º¸§µ·:%d\n", change);
+	printf("ê±°ìŠ¤ë¦„ëˆ:%d\n", change);
 
 	int change500 = change / 500;
 	int change100 = change / 100;
 	int change50 = change / 50;
 	int change10 = change / 10;
 
-	printf("500¿ø %d°³, ", change500);
-	printf("100¿ø %d°³, ", change100);
-	printf("50¿ø %d°³, ", change50);
-	printf("10¿ø %d°³, ", change10);
+	printf("500ì› %dê°œ, ", change500);
+	printf("100ì› %dê°œ, ", change100);
+	printf("50ì› %dê°œ, ", change50);
+	printf("10ì› %dê°œ, ", change10);
 
 	return 0;
 
