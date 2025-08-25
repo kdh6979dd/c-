@@ -11,13 +11,13 @@
 //	int movie = 0;
 //	int spaceout = 0;
 //	do {
-//		printf("\n%d¹øÂ° ³¯ !\n", ++day);
-//		printf("¿À´Ãµµ ÄÚµùÇÒ±î¿ä?\n");
-//		printf("1.°øºÎÇÑ´Ù.\n");
-//		printf("2.ÀáÀ» ÀÜ´Ù.\n");
-//		printf("3.¿µÈ­¸¦ º»´Ù.\n");
-//		printf("4.¸Û¶§¸°´Ù.\n");
-//		printf("±× ¿Ü. ³¡³½´Ù.\n >>");
+//		printf("\n%dë²ˆì§¸ ë‚  !\n", ++day);
+//		printf("ì˜¤ëŠ˜ë„ ì½”ë”©í• ê¹Œìš”?\n");
+//		printf("1.ê³µë¶€í•œë‹¤.\n");
+//		printf("2.ì ì„ ì”ë‹¤.\n");
+//		printf("3.ì˜í™”ë¥¼ ë³¸ë‹¤.\n");
+//		printf("4.ë©ë•Œë¦°ë‹¤.\n");
+//		printf("ê·¸ ì™¸. ëë‚¸ë‹¤.\n >>");
 //		scanf("%d", &command);
 //		if (command > 4) {
 //			break;
@@ -28,20 +28,20 @@
 //			switch (randint) {
 //				break;
 //			case 1:
-//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
 //			case 3:
-//				printf("µµ¼­°ü¿¡¼­ ");
+//				printf("ë„ì„œê´€ì—ì„œ ");
 //				break;
 //			case 2:
-//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
 //			case 4:
-//				printf("Ä«Æä¿¡¼­ ");
+//				printf("ì¹´í˜ì—ì„œ ");
 //				break;
 //			case 5:
-//				printf("ÇĞ¿ø¿¡¼­ ");
+//				printf("í•™ì›ì—ì„œ ");
 //				break;
 //			}
-//			printf("ÄÚµù °øºÎÇÕ´Ï´Ù.\n");
+//			printf("ì½”ë”© ê³µë¶€í•©ë‹ˆë‹¤.\n");
 //			study++;
 //		}
 //		else if (command == 2) {
@@ -50,20 +50,20 @@
 //			switch (randint) {
 //				break;
 //			case 1:
-//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
 //			case 3:
-//				printf("µµ¼­°ü¿¡¼­ ");
+//				printf("ë„ì„œê´€ì—ì„œ ");
 //				break;
 //			case 2:
-//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
 //			case 4:
-//				printf("Ä«Æä¿¡¼­ ");
+//				printf("ì¹´í˜ì—ì„œ ");
 //				break;
 //			case 5:
-//				printf("ÇĞ¿ø¿¡¼­ ");
+//				printf("í•™ì›ì—ì„œ ");
 //				break;
 //			}
-//			printf("ÀáÀ» Àâ´Ï´Ù.\n");
+//			printf("ì ì„ ì¡ë‹ˆë‹¤.\n");
 //			sleep++;
 //		}
 //		else if (command == 3) {
@@ -72,20 +72,20 @@
 //			switch (randint) {
 //				break;
 //			case 1:
-//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
 //			case 3:
-//				printf("µµ¼­°ü¿¡¼­ ");
+//				printf("ë„ì„œê´€ì—ì„œ ");
 //				break;
 //			case 2:
-//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
 //			case 4:
-//				printf("Ä«Æä¿¡¼­ ");
+//				printf("ì¹´í˜ì—ì„œ ");
 //				break;
 //			case 5:
-//				printf("ÇĞ¿ø¿¡¼­ ");
+//				printf("í•™ì›ì—ì„œ ");
 //				break;
 //			}
-//			printf("¿µÈ­¸¦ º¾´Ï´Ù.\n");
+//			printf("ì˜í™”ë¥¼ ë´…ë‹ˆë‹¤.\n");
 //			movie++;
 //		}
 //		else {
@@ -94,25 +94,25 @@
 //			switch (randint) {
 //				break;
 //			case 1:
-//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
 //			case 3:
-//				printf("µµ¼­°ü¿¡¼­ ");
+//				printf("ë„ì„œê´€ì—ì„œ ");
 //				break;
 //			case 2:
-//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
+//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
 //			case 4:
-//				printf("Ä«Æä¿¡¼­ ");
+//				printf("ì¹´í˜ì—ì„œ ");
 //				break;
 //			case 5:
-//				printf("ÇĞ¿ø¿¡¼­ ");
+//				printf("í•™ì›ì—ì„œ ");
 //				break;
 //			}
-//			printf("¸Û¶§¸³´Ï´Ù.\n");
+//			printf("ë©ë•Œë¦½ë‹ˆë‹¤.\n");
 //			spaceout++;
 //		}
 //	} while (1);
 //	if (day <= 3) {
-//		printf("±×´ë·ÎÀÔ´Ï´Ù...\n");
+//		printf("ê·¸ëŒ€ë¡œì…ë‹ˆë‹¤...\n");
 //	}
 //	else {
 //		int positive_level = study / 8;
@@ -123,58 +123,58 @@
 //		if ((study >= sleep)&& (study >= movie)&& (study >= spaceout)) {
 //			switch (positive_level) {
 //			case 0:
-//				printf("ÄÚµù»õ½ÏÀÌ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("ì½”ë”©ìƒˆì‹¹ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			case 1:
-//				printf("ÇÁ·Î±×·¡¸Ó°¡ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("í”„ë¡œê·¸ë˜ë¨¸ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			case 2:
-//				printf("Frontend °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("Frontend ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			case 3:
-//				printf("Backend °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("Backend ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			default:
-//				printf("Ç®½ºÅÃ °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("í’€ìŠ¤íƒ ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			}
 //		}
 //		else if ((sleep >= movie) && (sleep >= spaceout)&& (sleep >= study)) {
 //			switch (sleep_level) {
 //			case 0:
-//				printf("¿µ¾çÁ¦¸¦ ¸Ô¾î¾ß ÇÒ±î¿ä?..\n");
+//				printf("ì˜ì–‘ì œë¥¼ ë¨¹ì–´ì•¼ í• ê¹Œìš”?..\n");
 //				break;
 //			case 1:
-//				printf("ÀáÀ» ³Ê¹« ¸¹ÀÌ ÀÚ¹ö¸° °Í °°½À´Ï´Ù..\n");
+//				printf("ì ì„ ë„ˆë¬´ ë§ì´ ìë²„ë¦° ê²ƒ ê°™ìŠµë‹ˆë‹¤..\n");
 //				break;
 //			default:
-//				printf("±íÀº Àá¿¡ ºüÁ³½À´Ï´Ù..\n");
+//				printf("ê¹Šì€ ì ì— ë¹ ì¡ŒìŠµë‹ˆë‹¤..\n");
 //				break;
 //			}
 //		}
 //		else if ((movie >= sleep) && (movie >= spaceout)&& (movie >= study)) {
 //			switch (movie_level) {
 //			case 0:
-//				printf("´«ÀÌ ¾ÆÇÁµµ·Ï ¿µÈ­¸¦ ºÃ³×¿ä..\n");
+//				printf("ëˆˆì´ ì•„í”„ë„ë¡ ì˜í™”ë¥¼ ë´¤ë„¤ìš”..\n");
 //				break;
 //			case 1:
-//				printf("¿µÈ­¸¦ ³Ê¹« ¸¹ÀÌ º» °Í °°½À´Ï´Ù..\n");
+//				printf("ì˜í™”ë¥¼ ë„ˆë¬´ ë§ì´ ë³¸ ê²ƒ ê°™ìŠµë‹ˆë‹¤..\n");
 //				break;
 //			default:
-//				printf("¿µÈ­Æò·Ğ°¡°¡ µÇ¾ú½À´Ï´Ù.!\n");
+//				printf("ì˜í™”í‰ë¡ ê°€ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
 //				break;
 //			}
 //		}
 //		else {
 //			switch (spaceout_level) {
 //			case 0:
-//				printf("¸Û Á» ±×¸¸ ¶§¸³½Ã´Ù..\n");
+//				printf("ë© ì¢€ ê·¸ë§Œ ë•Œë¦½ì‹œë‹¤..\n");
 //				break;
 //			case 1:
-//				printf("¸ÛÀ» ³Ê¹« ¸¹ÀÌ ¶§¸° °Í °°½À´Ï´Ù..\n");
+//				printf("ë©ì„ ë„ˆë¬´ ë§ì´ ë•Œë¦° ê²ƒ ê°™ìŠµë‹ˆë‹¤..\n");
 //				break;
 //			default:
-//				printf("´Ù¸¥ ºĞ¾ß¸¦ ¾Ë¾Æº¾½Ã´Ù..\n");
+//				printf("ë‹¤ë¥¸ ë¶„ì•¼ë¥¼ ì•Œì•„ë´…ì‹œë‹¤..\n");
 //				break;
 //			}
 //		}
