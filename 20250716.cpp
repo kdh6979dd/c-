@@ -5,7 +5,7 @@
 //
 //	switch (command) {
 //	case'i':
-//		printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
+//		printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -16,9 +16,9 @@
 //	char command = 'i';
 //	switch (command) {
 //	case'i':
-//		printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
+//		printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
 //	case'm':
-//		printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//		printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -28,8 +28,8 @@
 //int main() {
 //	char command = 'm';
 //	switch (command) {
-//	case'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
-//	case'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
+//	case'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -39,9 +39,9 @@
 //int main() {
 //	char command = 'm';
 //	switch (command) {
-//	case'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
+//	case'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
 //		break;
-//	case'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -50,14 +50,14 @@
 //
 //int main() {
 //	char command;
-//	printf("Ä¿¸Çµå¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+//	printf("ì»¤ë§¨ë“œë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 //	scanf("%c", &command);
 //	switch (command) {
-//	case'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
-//		break;//break·Î ¸ØÃã
-//	case'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
+//		break;//breakë¡œ ë©ˆì¶¤
+//	case'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //		break;
-//	default: printf("ÁöÁ¤µÈ ±â´ÉÀÌ ¾ø½À´Ï´Ù.\n");
+//	default: printf("ì§€ì •ëœ ê¸°ëŠ¥ì´ ì—†ìŠµë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -80,11 +80,11 @@
 //	int input1;
 //	int input2;
 //	char oper;
-//	printf("¼ıÀÚ1:");
+//	printf("ìˆ«ì1:");
 //	scanf("%d", &input1);
-//	printf("¼ıÀÚ2:");
+//	printf("ìˆ«ì2:");
 //	scanf("%d", &input2);
-//	printf("±âÈ£:");
+//	printf("ê¸°í˜¸:");
 //	scanf(" %c", &oper);
 //	switch (oper)
 //	{
@@ -102,7 +102,7 @@
 //
 //int main() {
 //	int month;
-//	printf("¼ıÀÚ:");
+//	printf("ìˆ«ì:");
 //	scanf("%d", &month);
 //	switch (month) {
 //	case 1: printf("%d > January", month); break;
@@ -127,17 +127,17 @@
 //int main() {
 //	char command;
 //
-//	printf("<, a ¿ŞÂÊ ÀÌµ¿ \n");
-//	printf(">, d ¿À¸¥ÂÊ ÀÌµ¿ \n");
+//	printf("<, a ì™¼ìª½ ì´ë™ \n");
+//	printf(">, d ì˜¤ë¥¸ìª½ ì´ë™ \n");
 //	scanf("%c", &command);
 //	switch (command) {
 //	case '<':
 //	case 'a':
-//		//case¸¦ ¿©·¯°³ ½á¼­ °°ÀºÄÚµå ½ÇÇà°¡´É
-//		printf("¿ŞÂÊÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.\n");
+//		//caseë¥¼ ì—¬ëŸ¬ê°œ ì¨ì„œ ê°™ì€ì½”ë“œ ì‹¤í–‰ê°€ëŠ¥
+//		printf("ì™¼ìª½ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤.\n");
 //		break;
 //	case'>': case'd':
-//		printf("¿À¸¥ÂÊÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.\n");
+//		printf("ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤.\n");
 //		break;
 //	}
 //	return 0;
@@ -150,23 +150,23 @@
 //	int number;
 //	const int option = 3;
 //
-//	printf("¸Ş´º¸¦ ¼±ÅÃÇÏ¼¼¿ä");
-//	printf("1.»õ °ÔÀÓ 2.ÀÌ¾îÇÏ±â 3.¿É¼Ç\n");
+//	printf("ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš”");
+//	printf("1.ìƒˆ ê²Œì„ 2.ì´ì–´í•˜ê¸° 3.ì˜µì…˜\n");
 //
 //	scanf("%d", &input);
 //
 //	switch (input) {
 //	case 1:
-//		printf("»õ °ÔÀÓ ½ÃÀÛ.\n");
+//		printf("ìƒˆ ê²Œì„ ì‹œì‘.\n");
 //		break;
 //	case 2:
-//		printf("¼¼ÀÌºê µ¥ÀÌÅÍ ·Îµå.\n");
+//		printf("ì„¸ì´ë¸Œ ë°ì´í„° ë¡œë“œ.\n");
 //		break;
 //	case option:
-//		printf("¿É¼Ç ¼¼ÆÃ.\n");
+//		printf("ì˜µì…˜ ì„¸íŒ….\n");
 //		break;
 //	default:
-//		printf("ÁöÁ¤µÈ ±â´ÉÀÌ ¾ø½À´Ï´Ù.\n");
+//		printf("ì§€ì •ëœ ê¸°ëŠ¥ì´ ì—†ìŠµë‹ˆë‹¤.\n");
 //
 //	}
 //	return 0;
@@ -181,8 +181,8 @@
 //
 //	if (number >= 0 && number <= 9) {
 //		switch (number) {
-//		case 3: case 6: case 9: printf("Â¦"); break;
-//		default: printf("ÁöÁ¤µÈ ±â´ÉÀÌ ¾ø½À´Ï´Ù."); break;
+//		case 3: case 6: case 9: printf("ì§"); break;
+//		default: printf("ì§€ì •ëœ ê¸°ëŠ¥ì´ ì—†ìŠµë‹ˆë‹¤."); break;
 //		}
 //	}		
 //}
@@ -193,8 +193,8 @@
 //	char command = 'x';
 //
 //	switch (command) {
-//	case 'x': printf("¾ËÆÄºª x ÀÔ·Â.\n"); break;
-//	case 'X': printf("¿¢½ºÇ¥ ÀÔ·Â.\n"); break;
+//	case 'x': printf("ì•ŒíŒŒë²³ x ì…ë ¥.\n"); break;
+//	case 'X': printf("ì—‘ìŠ¤í‘œ ì…ë ¥.\n"); break;
 //	}
 //
 //	return 0;
@@ -205,21 +205,21 @@
 int main() {
 	int i_menu;
 
-	printf("1.´õÇÏ±â 2.»©±â\n");
+	printf("1.ë”í•˜ê¸° 2.ë¹¼ê¸°\n");
 	scanf("%d", &i_menu);
 
 	switch (i_menu)
 	{
 	case 1: {
 		int number1, number2;
-		printf("¼ıÀÚ µÎ °³¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+		printf("ìˆ«ì ë‘ ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
 		scanf("%d%d", &number1, &number2);
 		printf("%d+%d=%d\n", number1, number2, number1 + number2);
 	}
 		  break;
 	case 2: {
 		int number3, number4;
-		printf("¼ıÀÚ µÎ °³¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
+		printf("ìˆ«ì ë‘ ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
 		scanf("%d%d", &number3, &number4);
 		printf("%d-%d=%d\n", number3, number4, number3 - number4);
 	}
